@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+  char le;
+  scanf("%s",&le);
+  if(le>=97&&le<=122){
+    printf("LOWERCASE");
+  }
+  else if(le>=65&&le<=90){
+    printf("UPPERCASE");
+  }
+  else{
+    printf("NONE");
+  }
+}
